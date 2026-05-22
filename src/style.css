@@ -13,7 +13,7 @@ h1 {
 .search-from-input {
   background-color: #f9f7fe;
   border-radius: 6px;
-  width: 70%;
+  width: 75%;
   padding: 15px 20px;
   border: none;
   font-size: 16px;
@@ -23,7 +23,7 @@ h1 {
   border-radius: 6px;
   background-color: #885df1;
   font-size: 16px;
-  padding: 15px 30px;
+  padding: 15px 20px;
   border: none;
   margin-left: 5px;
   color: white;
@@ -37,6 +37,7 @@ body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
 }
+
 a {
   color: #885df1;
 }
