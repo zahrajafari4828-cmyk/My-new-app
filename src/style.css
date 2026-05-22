@@ -1,0 +1,57 @@
+.app-weather {
+  background-color: white;
+  border-radius: 16px;
+  margin: 45px auto;
+  max-width: 600px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+
+  padding: 30px;
+}
+h1 {
+  font-size: 2;
+}
+.search-from-input {
+  background-color: #f9f7fe;
+  border-radius: 6px;
+  width: 70%;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-from-button {
+  border-radius: 6px;
+  background-color: #885df1;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  margin-left: 5px;
+  color: white;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
+body {
+  background-color: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: #885df1;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
