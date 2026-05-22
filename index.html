@@ -3,33 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
-  <header>
-    <form>
-      <input type="text" placeholder="Enter a city.." />
-      <input type="submit" value="Search" />
-    </form>
-  </header>
-  <main>
-    <div>
-      <h1>Paris</h1>
-      <p>
-        Tuseday 14:49, scattered clouds <br />
-        Humidity: 66%, Wind: 3.13kmh
-      </p>
+
+  <body>
+    <div class="app-weather">
+      <header>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a city.."
+            id="search-from-input"
+            class="search-from-input"
+          />
+          <input type="submit" value="Search" class="search-from-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Tuseday 14:49, scattered clouds <br />
+              Humidity: 66%, Wind: 3.13kmh
+            </p>
+          </div>
+          <div>🌤️12°C</div>
+        </div>
+      </main>
+      <footer>
+        The project was coded by
+        <a href="https://github.com/zahrajafari4828-cmyk">Zahra Jafari</a>
+        is
+        <a href="https://github.com/zahrajafari4828-cmyk/My-new-app"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://weather-cheker-app.netlify.app/">bosted on Netlify</a>
+      </footer>
     </div>
-    <div>🌤️12°c</div>
-    <footer>
-      The project was coded by
-      <a href="https://github.com/zahrajafari4828-cmyk">Zahra Jafari</a>
-      is
-      <a href="https://github.com/zahrajafari4828-cmyk/My-new-app"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://weather-cheker-app.netlify.app/">bosted on Netlify</a>
-    </footer>
-  </main>
-  <body></body>
+  </body>
 </html>
